@@ -3,77 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Luxury Shoe Blog</title>
-    <style>
-        /* Reset default styles */
-        body, h1, p {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff;
-            color: #000;
-        }
-
-        header {
-            background-color: #000;
-            color: #fff;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 36px;
-        }
-
-        p {
-            font-size: 16px;
-        }
-
-        .blog-post {
-            background-color: #fff;
-            border: 1px solid #ccc;
-            padding: 20px;
-            margin: 20px;
-        }
-
-        .blog-post img {
-            max-width: 100%;
-        }
-
-        .btn {
-            background-color: #000;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-        }
-
-        .footer {
-            background-color: #000;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="static/styles/reset.css">
+    <link rel="stylesheet" href="static/styles/main.css">
 </head>
-<body>
+<body id="home">
     <header>
-        <h1>My Luxury Shoe Blog</h1>
-        <p>Welcome to my blog about the world of luxury shoes!</p>
+        <h1>Jermaine Parris</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about/index.html">About</a></li>
+                <li><a href="blog/post1/index.html">Blog Post 1</a></li>
+                <li><a href="blog/post2/index.html">Blog Post 2</a></li>
+                <!-- Add other fake links like "Search" and "Subscribe" -->
+            </ul>
+        </nav>
     </header>
+    <main>
+        <section>
+            <h2>Welcome to My Portfolio</h2>
+            <p>This is the home page of my portfolio.</p>
+        </section>
+        <!-- Blog Post Card -->
+        <div class="blog-post-card">
+            <h2>Latest Blog Post</h2>
+            <p>This is a brief description of the latest blog post.</p>
+            <a href="blog/latest-post/index.html">Read More</a>
+        </div>
 
-    <div class="blog-post">
-        <h2>all about luxury shoes</h2>
-        <img src="https://www.dior.com/couture/ecommerce/media/catalog/product/C/F/1675166452_KCK233TOK_S56B_E03_ZH.jpg" alt="Luxury Shoe">
-        <p>The Walk'n'Dior sneaker is crafted in deep blue Dior Oblique technical mesh, enhanced by tonal calfskin inserts and signatures on the rubber sole and laces for a timeless look. The comfortable sneaker will lend a modern touch to any outfit.</p>
-        <a class="btn" href="#">Read More</a>
-    </div>
+        <!-- Card -->
+        <div class="card">
+            <!-- Card content (see components.css for styling) -->
+        </div>
 
-    <!-- Repeat the blog post section for each new post -->
+        <!-- Image with Caption -->
+        <figure>
+            <img src="static/images/sample-image.jpg" alt="Sample Image">
+            <figcaption>Image Caption</figcaption>
+        </figure>
 
-    <div class="footer">
-        &copy; 2023 My Luxury Shoe Blog
-    </div>
+        <!-- Buttons -->
+        <button class="primary-button">Click Me</button>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2023 Your Portfolio</p>
+        </footer>
+    </main>
+
+    <!-- Blog Post -->
+    <section class="blog-post">
+        <!-- Header -->
+        <header>
+            <h1>Blog Post Title</h1>
+        </header>
+
+        <!-- Author Info -->
+        <div class="author-info">
+            <div class="avatar">
+                <img src="static/images/avatar.jpg" alt="Author Avatar">
+            </div>
+            <div class="info">
+                <h2>Author Name</h2>
+                <p>Title | Current Company/School</p>
+                <p>Short Bio</p>
+            </div>
+        </div>
+
+        <!-- Social Sharing -->
+        <div class="social-sharing">
+            <a href="#" class="twitter">Twitter</a>
+            <a href="#" class="facebook">Facebook</a>
+            <a href="#" class="linkedin">LinkedIn</a>
+        </div>
+
+        <!-- Blog Post Content -->
+        <article>
+            <!-- Content goes here -->
+        </article>
+    </section>
 </body>
 </html>

@@ -1,0 +1,29 @@
+
+.blog-post {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.avatar img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info {
+    flex: 1; 
+}
+
+.social-sharing {
+    display: flex;
+    margin-top: 20px;
+}
